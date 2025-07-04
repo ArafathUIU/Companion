@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompanionX - AI-Powered Mental Health Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#5B67DE',
+                        secondary: '#6366F1',
+                        accent: '#818CF8',
+                        dark: '#1E1E2E',
+                        light: '#F8FAFC',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #5B67DE 0%, #818CF8 100%);
+        }
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .wave {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+        .wave svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 150px;
+        }
+        .wave .shape-fill {
+            fill: #FFFFFF;
+        }
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm fixed w-full z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-brain text-2xl text-primary mr-2"></i>
+                        <span class="text-xl font-bold text-dark">CompanionX</span>
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#features" class="text-gray-800 hover:text-primary px-3 py-2 text-sm font-medium">Features</a>
+                    <a href="#how-it-works" class="text-gray-800 hover:text-primary px-3 py-2 text-sm font-medium">How It Works</a>
+                    <a href="#testimonials" class="text-gray-800 hover:text-primary px-3 py-2 text-sm font-medium">Testimonials</a>
+                    <a href="#pricing" class="text-gray-800 hover:text-primary px-3 py-2 text-sm font-medium">Pricing</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="login.php" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-primary bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent">
+                        Login
+                    </a>
+                    <a href="signup.php" class="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+  <section class="relative gradient-bg text-white pt-32 pb-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+            <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left flex-1">
+                <h1 class="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
+                    <span class="block">Your Private</span>
+                    <span class="block text-accent">Mental Health Companion</span>
+                </h1>
+                <p class="mt-3 text-base sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                    CompanionX offers AI-powered, privacy-first mental health support with mood tracking, anonymous counseling, and personalized exercises—all while protecting your identity.
+                </p>
+                <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0 min-h-0 overflow-visible relative z-50">
+                    <div class="flex flex-col sm:flex-row sm:justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 w-full">
+                        <a href="signup.php" class="px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-gray-100 hover:bg-gray-200 md:py-4 md:text-lg md:px-10">
+                            Start Free Trial
+                        </a>
+                        <a href="login.php" class="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-700 hover:bg-opacity-90 md:py-4 md:text-lg md:px-10">
+                            Login
+                        </a>
+                    </div>
+                    <p class="mt-3 text-sm text-black">
+                        End-to-end encrypted. No personal data stored. 100% anonymous.
+                    </p>
+                </div>
+            </div>
+            <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+                <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
+                    <div class="relative block w-full bg-white rounded-lg overflow-hidden">
+                        <img class="w-full" src="pic2.webp" alt="Woman meditating for mental wellness">
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-30"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wave z-40">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,477.92,42.57,611.39,23.45,744.85,13.21,874.74,18.58C1003.58,23.87,1143,63.45,1200,115.89V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+</section>
+
+    <!-- Trusted By Section -->
+    <section class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Trusted by mental health professionals worldwide
+                </p>
+            </div>
+            <div class="mt-10 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+                <div class="col-span-1 flex justify-center">
+                    <img class="h-12" src="avatars/pic3.png" alt="Therapist Association">
+                </div>
+                <div class="col-span-1 flex justify-center">
+                    <img class="h-12" src="avatars/pic3.png" alt="Mindful Health">
+                </div>
+                <div class="col-span-1 flex justify-center">
+                    <img class="h-12" src="avatars/pic3.png" alt="Wellness Foundation">
+                </div>
+                <div class="col-span-1 flex justify-center">
+                    <img class="h-12" src="avatars/pic3.png" alt="Psych Council">
+                </div>
+                <div class="col-span-1 flex justify-center">
+                    <img class="h-12" src="avatars/pic3.png" alt="Mental Health First Aid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-base text-primary font-semibold tracking-wide uppercase">Features</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Privacy-first mental health tools
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    All the support you need, with none of the privacy concerns.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+                    <!-- Feature 1 -->
+                    <div class="feature-card bg-white rounded-xl shadow-md overflow-hidden p-6 transition duration-300 ease-in-out">
+                        <div class="flex-shrink-0 bg-primary bg-opacity-10 p-3 rounded-lg inline-flex">
+                            <i class="fas fa-user-shield text-primary text-2xl"></i>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="text-lg font-medium text-gray-900">Anonymous Counseling</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Speak freely with our AI chatbot or human counselors without revealing your identity. End-to-end encrypted sessions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="feature-card bg-white rounded-xl shadow-md overflow-hidden p-6 transition duration-300 ease-in-out">
+                        <div class="flex-shrink-0 bg-primary bg-opacity-10 p-3 rounded-lg inline-flex">
+                            <i class="fas fa-chart-line text-primary text-2xl"></i>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="text-lg font-medium text-gray-900">Mood Tracking</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                AI-powered mood analysis with anonymized data to help you understand patterns and triggers in your emotional wellbeing.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="feature-card bg-white rounded-xl shadow-md overflow-hidden p-6 transition duration-300 ease-in-out">
+                        <div class="flex-shrink-0 bg-primary bg-opacity-10 p-3 rounded-lg inline-flex">
+                            <i class="fas fa-users text-primary text-2xl"></i>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="text-lg font-medium text-gray-900">Community Support</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Connect with others anonymously in moderated support groups based on your specific needs and interests.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="feature-card bg-white rounded-xl shadow-md overflow-hidden p-6 transition duration-300 ease-in-out">
+                        <div class="flex-shrink-0 bg-primary bg-opacity-10 p-3 rounded-lg inline-flex">
+                            <i class="fas fa-brain text-primary text-2xl"></i>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="text-lg font-medium text-gray-900">Personalized Exercises</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Customized CBT, mindfulness, and therapeutic activities based on your unique patterns identified by our AI.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 5 -->
+                    <div class="feature-card bg-white rounded-xl shadow-md overflow-hidden p-6 transition duration-300 ease-in-out">
+                        <div class="flex-shrink-0 bg-primary bg-opacity-10 p-3 rounded-lg inline-flex">
+                            <i class="fas fa-calendar-alt text-primary text-2xl"></i>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="text-lg font-medium text-gray-900">Consultant Booking</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Secure, anonymous booking with licensed professionals who specialize in your specific concerns.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 6 -->
+                    <div class="feature-card bg-white rounded-xl shadow-md overflow-hidden p-6 transition duration-300 ease-in-out">
+                        <div class="flex-shrink-0 bg-primary bg-opacity-10 p-3 rounded-lg inline-flex">
+                            <i class="fas fa-fingerprint text-primary text-2xl"></i>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="text-lg font-medium text-gray-900">Zero-Knowledge Architecture</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Your data never leaves your device unencrypted. We don't store personal information—only anonymized usage patterns.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-base text-primary font-semibold tracking-wide uppercase">How it works</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Mental health support in 3 simple steps
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="relative">
+                    <!-- Vertical line -->
+                    <div class="hidden md:block absolute left-1/2 h-full w-0.5 bg-gradient-to-b from-primary to-accent"></div>
+
+                    <!-- Step 1 -->
+                    <div class="md:flex justify-center mb-12">
+                        <div class="md:w-5/12 md:pr-10">
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">1. Create Your Anonymous Profile</h3>
+                                <p class="text-gray-600">
+                                    Sign up without personal details. Our system generates a random ID that can't be traced back to you. No email required.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hidden md:flex md:w-2/12 md:px-4 md:items-center md:justify-center">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-primary text-white text-xl font-bold">1</div>
+                        </div>
+                        <div class="hidden md:block md:w-5/12"></div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="md:flex justify-center mb-12">
+                        <div class="hidden md:block md:w-5/12"></div>
+                        <div class="hidden md:flex md:w-2/12 md:px-4 md:items-center md:justify-center">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-primary text-white text-xl font-bold">2</div>
+                        </div>
+                        <div class="md:w-5/12 md:pl-10">
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">2. Choose Your Support Path</h3>
+                                <p class="text-gray-600">
+                                    Select from AI chatbot counseling, human counselor matching, mood tracking, or community support—all while maintaining anonymity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="md:flex justify-center">
+                        <div class="md:w-5/12 md:pr-10">
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">3. Receive Personalized Support</h3>
+                                <p class="text-gray-600">
+                                    Our AI learns from your interactions to provide increasingly tailored mental health exercises and recommendations—with no personal data stored.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hidden md:flex md:w-2/12 md:px-4 md:items-center md:justify-center">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-primary text-white text-xl font-bold">3</div>
+                        </div>
+                        <div class="hidden md:block md:w-5/12"></div>
+                    </div>
+                </div>
+
+                <div class="mt-16 text-center">
+                    <a href="login.php" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-primary hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent">
+                        Get Started Now
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-base text-primary font-semibold tracking-wide uppercase">Testimonials</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    What our users say
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Real stories from people who've found help through CompanionX.
+                </p>
+            </div>
+
+            <div class="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0">
+                            <span class="h-10 w-10 bg-accent bg-opacity-20 rounded-full flex items-center justify-center">
+                                <span class="text-accent font-bold">A</span>
+                            </span>
+                        </div>
+                        <div class="ml-4">
+                            <div class="text-sm font-medium text-gray-900">Anonymous User</div>
+                            <div class="text-sm text-gray-500">30s • Anxiety Support</div>
+                        </div>
+                    </div>
+                    <div class="text-gray-600 italic">
+                        "For years I avoided therapy because I was afraid of the stigma. CompanionX let me explore mental health support without fear. The AI chatbot understood me better than I expected, and when I was ready, it seamlessly connected me to a human counselor—still anonymously."
+                    </div>
+                    <div class="mt-4">
+                        <div class="flex space-x-1">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0">
+                            <span class="h-10 w-10 bg-accent bg-opacity-20 rounded-full flex items-center justify-center">
+                                <span class="text-accent font-bold">J</span>
+                            </span>
+                        </div>
+                        <div class="ml-4">
+                            <div class="text-sm font-medium text-gray-900">Anonymous User</div>
+                            <div class="text-sm text-gray-500">40s • Depression Management</div>
+                        </div>
+                    </div>
+                    <div class="text-gray-600 italic">
+                        "The mood tracking feature changed everything for me. Seeing the patterns visualized helped me understand my cycles better than years of therapy. The privacy-first approach meant I could be completely honest in my tracking without worrying about who might see it."
+                    </div>
+                    <div class="mt-4">
+                        <div class="flex space-x-1">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star-half-alt text-yellow-400"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0">
+                            <span class="h-10 w-10 bg-accent bg-opacity-20 rounded-full flex items-center justify-center">
+                                <span class="text-accent font-bold">M</span>
+                            </span>
+                        </div>
+                        <div class="ml-4">
+                            <div class="text-sm font-medium text-gray-900">Anonymous User</div>
+                            <div class="text-sm text-gray-500">20s • Transgender Support</div>
+                        </div>
+                    </div>
+                    <div class="text-gray-600 italic">
+                        "As someone in a community where mental health is still taboo, CompanionX was a lifesaver. I could access therapy without risking my privacy. The support group helped me feel less alone, and the fact that it's all anonymous made me comfortable sharing my true struggles."
+                    </div>
+                    <div class="mt-4">
+                        <div class="flex space-x-1">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-base text-primary font-semibold tracking-wide uppercase">Pricing</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Simple, transparent pricing
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Pay only for what you need. Cancel anytime without explanation.
+                </p>
+            </div>
+
+            <div class="mt-10 grid grid-cols-1 gap-8 md:grid-cols-3">
+                <!-- Free Tier -->
+                <div class="bg-gray-50 rounded-2xl shadow-sm overflow-hidden">
+                    <div class="px-6 py-8 sm:p-10 sm:pb-6">
+                        <div>
+                            <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-white text-gray-800">
+                                Self Care
+                            </h3>
+                        </div>
+                        <div class="mt-4 flex items-baseline text-5xl font-extrabold text-gray-900">
+                            Free
+                        </div>
+                        <p class="mt-2 text-lg text-gray-500">
+                            Basic mental health support
+                        </p>
+                    </div>
+                    <div class="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 text-accent">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700">
+                                    AI Chatbot Support
+                                </p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 text-accent">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700">
+                                    Basic Mood Tracking
+                                </p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 text-accent">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700">
+                                    Community Access
+                                </p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 text-gray-300">
+                                    <i class="fas fa-times"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-500">
+                                    Human Counselor Matching
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="mt-6 rounded-md shadow">
+                            <a href="signup.php" class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-white hover:bg-gray-50">
+                                Get started
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Premium Tier -->
+                <div class="bg-white border-2 border-primary rounded-2xl shadow-sm overflow-hidden transform scale-105">
+                    <div class="px-6 py-8 sm:p-10 sm:pb-6">
+                        <div>
+                            <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-primary text-white">
+                                Premium Support
+                            </h3>
+                        </div>
+                        <div class="mt-4 flex items-baseline text-5xl font-extrabold text-gray-900">
+                            $9.99
+                            <span class="ml-1 text-2xl font-medium text-gray-500">/month</span>
+                        </div>
+                        <p class="mt-2 text-lg text-gray-500">
+                            Enhanced mental health tools
+                        </p>
+                    </div>
+                    <div class="px-6 pt-6 pb-8 bg-white sm:p-10 sm:pt-6">
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 text-accent">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700">
+                                    Advanced AI Chatbot
+                                </p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 text-accent">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700">
+                                    Detailed Mood Analysis
+                                </p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 text-accent">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700">
+                                    2 Anonymous Human Sessions/month
+                                </p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 text-accent">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700">
+                                    Personalized Exercises
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="mt-6 rounded-md shadow">
+                            <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-secondary">
+                                Get started
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Tier -->
+                <div class="bg-gray-50 rounded-2xl shadow-sm overflow-hidden">
+                    <div class="px-6 py-8 sm:p-10 sm:pb-6">
+                        <div>
+                            <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-white text-gray-800">
+                                Professional Care
+                            </h3>
+                        </div>
+                        <div class="mt-4 flex items-baseline text-5xl font-extrabold text-gray-900">
+                            $29.99
+                            <span class="ml-1 text-2xl font-medium text-gray-500">/month</span>
+                        </div>
+                        <p class="mt-2 text-lg text-gray-500">
+                            Comprehensive mental health plan
+                        </p>
+                    </div>
+                    <div class="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 text-accent">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700">
+                                    Unlimited AI Chatbot
+                                </p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 text-accent">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700">
+                                    Advanced Mood & Progress Tracking
+                                </p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 text-accent">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700">
+                                    Weekly Anonymous Human Sessions
+                                </p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 text-accent">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700">
+                                    Priority Counselor Matching
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="mt-6 rounded-md shadow">
+                            <a href="signup.php" class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-white hover:bg-gray-50">
+                                Get started
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-16 bg-gray-50 rounded-lg p-8">
+                <h3 class="text-lg font-medium text-gray-900">Need something different?</h3>
+                <p class="mt-2 text-gray-600">
+                    Contact us for corporate plans, student discounts, or specialized support packages.
+                </p>
+                <a href="#" class="mt-4 inline-flex items-center text-primary font-medium hover:text-secondary">
+                    Contact sales
+                    <i class="fas fa-chevron-right ml-1"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="gradient-bg text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+                <div class="lg:col-span-6">
+                    <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
+                        Ready to prioritize your mental health—without compromising your privacy?
+                    </h2>
+                    <p class="mt-4 text-lg">
+                        Join thousands who've found support through CompanionX's privacy-first platform.
+                    </p>
+                </div>
+                <div class="mt-8 lg:mt-0 lg:col-span-6 flex items-center">
+                    <div class="bg-white rounded-lg shadow-lg p-8 w-full">
+                        <h3 class="text-xl font-medium text-gray-900 mb-4">Start your 7-day free trial</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label for="anon-id" class="sr-only">Create Anonymous ID</label>
+                                <input type="text" id="anon-id" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md p-3" placeholder="Choose an anonymous username">
+                            </div>
+                            <div class="mb-4">
+                                <label for="password" class="sr-only">Password</label>
+                                <input type="password" id="password" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md p-3" placeholder="Create a password">
+                            </div>
+                            <a href="signup.php" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-white bg-primary hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent">
+                                Start Free Trial
+                            </a>
+                        </form>
+                        <p class="mt-4 text-center text-sm text-gray-600">
+                            No personal information needed. You're anonymous from day one.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-base text-primary font-semibold tracking-wide uppercase">FAQs</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Frequently asked questions
+                </p>
+            </div>
+
+            <div class="max-w-3xl mx-auto">
+                <div class="space-y-6">
+                    <!-- FAQ 1 -->
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                        <button onclick="toggleFAQ('faq1')" class="w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                            <span class="text-lg font-medium text-gray-900">How does CompanionX protect my privacy?</span>
+                            <i id="faq1-icon" class="fas fa-plus text-primary"></i>
+                        </button>
+                        <div id="faq1-content" class="hidden px-6 pb-6">
+                            <p class="text-gray-600">
+                                CompanionX uses zero-knowledge architecture, meaning your data is encrypted before it leaves your device. We don't store personal information—only anonymized interaction patterns that can't be traced back to you. All communications are end-to-end encrypted, and we never require identifying details like your name, email, or phone number.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                        <button onclick="toggleFAQ('faq2')" class="w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                            <span class="text-lg font-medium text-gray-900">Is the AI chatbot a replacement for human therapy?</span>
+                            <i id="faq2-icon" class="fas fa-plus text-primary"></i>
+                        </button>
+                        <div id="faq2-content" class="hidden px-6 pb-6">
+                            <p class="text-gray-600">
+                                Our AI chatbot is designed to provide mental health support, not replace professional therapy. It can offer immediate assistance, coping strategies, and mood tracking, but for clinical conditions, we recommend pairing it with our anonymous human counseling service. The AI can help determine when professional help might be beneficial.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                        <button onclick="toggleFAQ('faq3')" class="w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                            <span class="text-lg font-medium text-gray-900">How do I recover my account if I lose my anonymous ID?</span>
+                            <i id="faq3-icon" class="fas fa-plus text-primary"></i>
+                        </button>
+                        <div id="faq3-content" class="hidden px-6 pb-6">
+                            <p class="text-gray-600">
+                                Due to our privacy-first approach, we have no way to recover lost anonymous IDs or passwords. We recommend saving your login details in a secure password manager. If lost, you'll need to create a new account—this ensures no one can ever claim to recover your account on your behalf, protecting your anonymity.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                        <button onclick="toggleFAQ('faq4')" class="w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                            <span class="text-lg font-medium text-gray-900">Are the human counselors licensed professionals?</span>
+                            <i id="faq4-icon" class="fas fa-plus text-primary"></i>
+                        </button>
+                        <div id="faq4-content" class="hidden px-6 pb-6">
+                            <p class="text-gray-600">
+                                Yes, all human counselors on CompanionX are fully licensed mental health professionals who undergo rigorous vetting. They provide therapy through our platform while respecting your anonymity. Their credentials are verified, though their identities are protected just like yours to maintain complete confidentiality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 text-center">
+                    <p class="text-base text-gray-600">
+                        Have more questions? We're here (anonymously) to help.
+                    </p>
+                    <a href="#" class="mt-4 inline-flex items-center text-primary font-medium hover:text-secondary">
+                        Contact Support
+                        <i class="fas fa-chevron-right ml-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="col-span-2">
+                    <h3 class="text-lg font-bold text-white mb-4">CompanionX</h3>
+                    <p class="text-gray-400">
+                        Privacy-first mental health support powered by AI. Helping you navigate emotional wellbeing without compromising your identity.
+                    </p>
+                    <div class="mt-4 flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-white uppercase tracking-wider mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Guides</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Mental Health Resources</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-white uppercase tracking-wider mb-4">Company</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">For Therapists</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Press</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Careers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800">
+                <div class="md:flex md:items-center md:justify-between">
+                    <div class="flex space-x-6 md:order-2">
+                        <span class="text-sm text-gray-400">
+                            Built with PHP, MySQL, Tailwind CSS, and Python AI
+                        </span>
+                    </div>
+                    <p class="mt-8 text-sm text-gray-400 md:mt-0 md:order-1">
+                        &copy; 2023 CompanionX. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ toggle function
+        function toggleFAQ(id) {
+            const content = document.getElementById(`${id}-content`);
+            const icon = document.getElementById(`${id}-icon`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.remove('fa-plus');
+                icon.classList.add('fa-minus');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('fa-minus');
+                icon.classList.add('fa-plus');
+            }
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
