@@ -2,7 +2,7 @@
 
 **CompanionX** is a full-featured, privacy-focused, AI-powered mental health support platform. Designed with empathy and built using modern full-stack and AI technologies, it supports emotional well-being, anonymous counseling, mood tracking, and intelligent support — all in a secure and user-centric environment.
 
-![CompanionX UI Banner](UI/ss%20%20(1).png) <!-- Replace with your banner image -->
+![CompanionX UI Banner](UI/Screenshot%202025-07-19%20213934.png) <!-- Replace with your banner image -->
 
 ---
 
@@ -50,23 +50,25 @@
 > Replace these with your actual screenshots
 
 ### User Dashboard
-![Dashboard](UI/ss%20%20(2).png)
+![Dashboard](UI/ss%20%20(1).png)
+![Dashboard](UI/ss%20%20(3).png)
+![Dashboard](UI/ss%20%20(4).png)
+
+
 
 
 ### 🧘‍♂️ Mood Journal & Prediction
-![Mood Journal](UI/ss%20%20(3).png)
-![Mood Prediction](UI/ss%20%20(4).png)
+![Mood Journal](UI/ss%20%20(9).png)
+![Mood Prediction](UI/ss%20%20(6).png)
 
 
 
 ### Some other features
-![features](UI/ss%20%20(5).png)
-![features](UI/ss%20%20(6).png)
-![features](UI/ss%20%20(7).png)
-![features](UI/ss%20%20(8).png)
-![features](UI/ss%20%20(9).png)
 ![features](UI/ss%20%20(10).png)
+
 ![features](UI/ss%20%20(11).png)
+![features](UI/ss%20%20(12).png)
+![features](UI/ss%20%20(13).png)
 ![features](UI/ss%20%20(14).png)
 ![features](UI/ss%20%20(15).png)
 ![features](UI/ss%20%20(16).png)
