@@ -101,10 +101,8 @@
 Intern @ IRIIC (UIU) | Smart Receptionist Dev | NLP & AI Enthusiast | Product Builder
 
 Other Projects:
-- [🧾 Scriptify](#)
-- [🤖 ASKUIU](#)
-- [✍️ WritersBuddy](#)
-
+- [🧾 Scriptify](https://github.com/ArafathUIU/Scriptify-AI-Writing-Tool)
+- [🤖 ASKUIU](https://github.com/ArafathUIU/ASKUIU)
 ---
 
 ## 📌 Future Roadmap
