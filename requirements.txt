@@ -1,0 +1,9 @@
+sentence-transformers
+faiss-cpu~=1.9.0.post1
+pandas~=2.2.3
+torch~=2.5.1
+transformers~=4.48.0
+tqdm~=4.67.1
+openai~=1.59.7
+numpy~=2.2.1
+Flask~=3.1.0

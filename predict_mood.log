@@ -1,0 +1,499 @@
+2025-06-27 04:53:38,163 - INFO - Starting mood prediction for user_id 44
+2025-06-27 04:53:38,266 - INFO - Database connection successful
+2025-06-27 04:53:38,268 - INFO - Fetched 0 mood entries for user_id 44
+2025-06-27 04:53:38,268 - WARNING - No mood entries for user_id 44
+2025-06-27 04:53:45,182 - INFO - Starting mood prediction for user_id 44
+2025-06-27 04:53:45,237 - INFO - Database connection successful
+2025-06-27 04:53:45,238 - INFO - Fetched 0 mood entries for user_id 44
+2025-06-27 04:53:45,238 - WARNING - No mood entries for user_id 44
+2025-06-27 04:53:56,749 - INFO - Starting mood prediction for user_id 44
+2025-06-27 04:53:56,796 - INFO - Database connection successful
+2025-06-27 04:53:56,797 - INFO - Fetched 0 mood entries for user_id 44
+2025-06-27 04:53:56,797 - WARNING - No mood entries for user_id 44
+2025-06-27 04:54:47,494 - ERROR - No user_id provided as command-line argument
+2025-06-27 04:55:23,340 - ERROR - No user_id provided as command-line argument
+2025-06-27 04:57:22,467 - ERROR - No user_id provided as command-line argument
+2025-06-27 05:02:02,351 - INFO - Starting mood prediction for user_id 44
+2025-06-27 05:02:02,506 - INFO - Database connection successful
+2025-06-27 05:02:02,508 - INFO - Fetched 0 mood entries for user_id 44
+2025-06-27 05:02:02,508 - WARNING - No mood entries for user_id 44
+2025-06-27 05:02:02,510 - INFO - Database connection successful
+2025-06-27 05:02:02,518 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-27 05:02:08,284 - INFO - Starting mood prediction for user_id 44
+2025-06-27 05:02:08,331 - INFO - Database connection successful
+2025-06-27 05:02:08,331 - INFO - Fetched 0 mood entries for user_id 44
+2025-06-27 05:02:08,332 - WARNING - No mood entries for user_id 44
+2025-06-27 05:02:08,333 - INFO - Database connection successful
+2025-06-27 05:02:08,345 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-27 05:02:18,888 - INFO - Starting mood prediction for user_id 44
+2025-06-27 05:02:18,953 - INFO - Database connection successful
+2025-06-27 05:02:18,954 - INFO - Fetched 0 mood entries for user_id 44
+2025-06-27 05:02:18,954 - WARNING - No mood entries for user_id 44
+2025-06-27 05:02:18,956 - INFO - Database connection successful
+2025-06-27 05:02:18,961 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-27 05:02:19,940 - INFO - Starting mood prediction for user_id 44
+2025-06-27 05:02:19,996 - INFO - Database connection successful
+2025-06-27 05:02:19,997 - INFO - Fetched 1 mood entries for user_id 44
+2025-06-27 05:02:20,002 - INFO - Database connection successful
+2025-06-27 05:02:20,006 - INFO - Fetched 2 tasks for mood Angry
+2025-06-27 05:02:20,868 - INFO - Starting mood prediction for user_id 44
+2025-06-27 05:02:20,920 - INFO - Database connection successful
+2025-06-27 05:02:20,921 - INFO - Fetched 1 mood entries for user_id 44
+2025-06-27 05:02:20,923 - INFO - Database connection successful
+2025-06-27 05:02:20,926 - INFO - Fetched 2 tasks for mood Angry
+2025-06-27 05:02:34,655 - INFO - Starting mood prediction for user_id 44
+2025-06-27 05:02:34,726 - INFO - Database connection successful
+2025-06-27 05:02:34,727 - INFO - Fetched 1 mood entries for user_id 44
+2025-06-27 05:02:34,729 - INFO - Database connection successful
+2025-06-27 05:02:34,734 - INFO - Fetched 2 tasks for mood Angry
+2025-06-27 05:11:19,373 - INFO - Starting mood prediction for user_id 44
+2025-06-27 05:11:19,422 - INFO - Database connection successful
+2025-06-27 05:11:19,424 - INFO - Fetched 1 mood entries for user_id 44
+2025-06-27 05:11:19,426 - INFO - Database connection successful
+2025-06-27 05:11:19,439 - INFO - Fetched 2 tasks for mood Angry
+2025-06-27 05:11:36,757 - INFO - Starting mood prediction for user_id 44
+2025-06-27 05:11:36,811 - INFO - Database connection successful
+2025-06-27 05:11:36,812 - INFO - Fetched 1 mood entries for user_id 44
+2025-06-27 05:11:36,814 - INFO - Database connection successful
+2025-06-27 05:11:36,819 - INFO - Fetched 2 tasks for mood Angry
+2025-06-27 05:11:37,676 - INFO - Starting mood prediction for user_id 44
+2025-06-27 05:11:37,726 - INFO - Database connection successful
+2025-06-27 05:11:37,727 - INFO - Fetched 2 mood entries for user_id 44
+2025-06-27 05:11:37,737 - INFO - Database connection successful
+2025-06-27 05:11:37,742 - INFO - Fetched 2 tasks for mood Sad
+2025-06-27 05:11:38,813 - INFO - Starting mood prediction for user_id 44
+2025-06-27 05:11:38,866 - INFO - Database connection successful
+2025-06-27 05:11:38,867 - INFO - Fetched 2 mood entries for user_id 44
+2025-06-27 05:11:38,868 - INFO - Database connection successful
+2025-06-27 05:11:38,871 - INFO - Fetched 2 tasks for mood Sad
+2025-06-27 05:11:56,525 - INFO - Starting mood prediction for user_id 44
+2025-06-27 05:11:56,590 - INFO - Database connection successful
+2025-06-27 05:11:56,592 - INFO - Fetched 2 mood entries for user_id 44
+2025-06-27 05:11:56,595 - INFO - Database connection successful
+2025-06-27 05:11:56,598 - INFO - Fetched 2 tasks for mood Angry
+2025-06-27 05:14:29,131 - INFO - Starting mood prediction for user_id 44
+2025-06-27 05:14:29,190 - INFO - Database connection successful
+2025-06-27 05:14:29,191 - INFO - Fetched 2 mood entries for user_id 44
+2025-06-27 05:14:29,193 - INFO - Database connection successful
+2025-06-27 05:14:29,196 - INFO - Fetched 2 tasks for mood Angry
+2025-06-27 05:37:38,129 - INFO - Starting mood prediction for user_id 44
+2025-06-27 05:37:38,190 - INFO - Database connection successful
+2025-06-27 05:37:38,191 - INFO - Fetched 2 mood entries for user_id 44
+2025-06-27 05:37:38,197 - INFO - Database connection successful
+2025-06-27 05:37:38,203 - INFO - Fetched 2 tasks for mood Sad
+2025-06-27 14:06:45,747 - INFO - Starting mood prediction for user_id 46
+2025-06-27 14:06:45,802 - INFO - Database connection successful
+2025-06-27 14:06:45,803 - INFO - Fetched 0 mood entries for user_id 46
+2025-06-27 14:06:45,803 - WARNING - No mood entries for user_id 46
+2025-06-27 14:06:45,805 - INFO - Database connection successful
+2025-06-27 14:06:45,812 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-27 14:07:05,652 - INFO - Starting mood prediction for user_id 46
+2025-06-27 14:07:05,698 - INFO - Database connection successful
+2025-06-27 14:07:05,699 - INFO - Fetched 0 mood entries for user_id 46
+2025-06-27 14:07:05,700 - WARNING - No mood entries for user_id 46
+2025-06-27 14:07:05,701 - INFO - Database connection successful
+2025-06-27 14:07:05,714 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-27 14:07:06,772 - INFO - Starting mood prediction for user_id 46
+2025-06-27 14:07:06,817 - INFO - Database connection successful
+2025-06-27 14:07:06,818 - INFO - Fetched 1 mood entries for user_id 46
+2025-06-27 14:07:06,819 - INFO - Database connection successful
+2025-06-27 14:07:06,822 - INFO - Fetched 2 tasks for mood Angry
+2025-06-27 14:07:07,807 - INFO - Starting mood prediction for user_id 46
+2025-06-27 14:07:07,854 - INFO - Database connection successful
+2025-06-27 14:07:07,855 - INFO - Fetched 1 mood entries for user_id 46
+2025-06-27 14:07:07,857 - INFO - Database connection successful
+2025-06-27 14:07:07,861 - INFO - Fetched 2 tasks for mood Angry
+2025-06-27 14:11:58,470 - INFO - Starting mood prediction for user_id 46
+2025-06-27 14:11:58,536 - INFO - Database connection successful
+2025-06-27 14:11:58,537 - INFO - Fetched 1 mood entries for user_id 46
+2025-06-27 14:11:58,538 - INFO - Database connection successful
+2025-06-27 14:11:58,542 - INFO - Fetched 2 tasks for mood Angry
+2025-06-27 14:12:06,651 - INFO - Starting mood prediction for user_id 46
+2025-06-27 14:12:06,707 - INFO - Database connection successful
+2025-06-27 14:12:06,708 - INFO - Fetched 1 mood entries for user_id 46
+2025-06-27 14:12:06,710 - INFO - Database connection successful
+2025-06-27 14:12:06,724 - INFO - Fetched 2 tasks for mood Angry
+2025-06-27 14:12:07,637 - INFO - Starting mood prediction for user_id 46
+2025-06-27 14:12:07,694 - INFO - Database connection successful
+2025-06-27 14:12:07,695 - INFO - Fetched 2 mood entries for user_id 46
+2025-06-27 14:12:07,698 - INFO - Database connection successful
+2025-06-27 14:12:07,701 - INFO - Fetched 2 tasks for mood Angry
+2025-06-27 14:12:08,646 - INFO - Starting mood prediction for user_id 46
+2025-06-27 14:12:08,705 - INFO - Database connection successful
+2025-06-27 14:12:08,706 - INFO - Fetched 2 mood entries for user_id 46
+2025-06-27 14:12:08,708 - INFO - Database connection successful
+2025-06-27 14:12:08,711 - INFO - Fetched 2 tasks for mood Angry
+2025-06-27 14:12:24,648 - INFO - Starting mood prediction for user_id 46
+2025-06-27 14:12:24,701 - INFO - Database connection successful
+2025-06-27 14:12:24,702 - INFO - Fetched 2 mood entries for user_id 46
+2025-06-27 14:12:24,705 - INFO - Database connection successful
+2025-06-27 14:12:24,708 - INFO - Fetched 2 tasks for mood Angry
+2025-06-28 02:56:37,253 - ERROR - No user_id provided as command-line argument
+2025-06-28 10:48:42,316 - INFO - Starting mood prediction for user_id 48
+2025-06-28 10:48:42,369 - INFO - Database connection successful
+2025-06-28 10:48:42,370 - INFO - Fetched 0 mood entries for user_id 48
+2025-06-28 10:48:42,370 - WARNING - No mood entries for user_id 48
+2025-06-28 10:48:42,372 - INFO - Database connection successful
+2025-06-28 10:48:42,386 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-28 10:48:55,167 - INFO - Starting mood prediction for user_id 48
+2025-06-28 10:48:55,218 - INFO - Database connection successful
+2025-06-28 10:48:55,219 - INFO - Fetched 0 mood entries for user_id 48
+2025-06-28 10:48:55,219 - WARNING - No mood entries for user_id 48
+2025-06-28 10:48:55,221 - INFO - Database connection successful
+2025-06-28 10:48:55,234 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-28 10:48:56,128 - INFO - Starting mood prediction for user_id 48
+2025-06-28 10:48:56,182 - INFO - Database connection successful
+2025-06-28 10:48:56,183 - INFO - Fetched 1 mood entries for user_id 48
+2025-06-28 10:48:56,185 - INFO - Database connection successful
+2025-06-28 10:48:56,188 - INFO - Fetched 2 tasks for mood Sad
+2025-06-28 10:48:57,072 - INFO - Starting mood prediction for user_id 48
+2025-06-28 10:48:57,124 - INFO - Database connection successful
+2025-06-28 10:48:57,125 - INFO - Fetched 1 mood entries for user_id 48
+2025-06-28 10:48:57,127 - INFO - Database connection successful
+2025-06-28 10:48:57,139 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 00:04:27,213 - INFO - Starting mood prediction for user_id 45
+2025-06-29 00:04:27,380 - INFO - Database connection successful
+2025-06-29 00:04:27,382 - ERROR - Error fetching mood entries: 1054 (42S22): Unknown column 'intensity' in 'field list'
+2025-06-29 00:04:27,383 - WARNING - No mood entries for user_id 45
+2025-06-29 00:04:27,385 - INFO - Database connection successful
+2025-06-29 00:04:27,387 - ERROR - Error fetching mood tasks: 1146 (42S02): Table 'companionx.mood_tasks' doesn't exist
+2025-06-29 00:04:36,738 - INFO - Starting mood prediction for user_id 45
+2025-06-29 00:04:36,788 - INFO - Database connection successful
+2025-06-29 00:04:36,789 - ERROR - Error fetching mood entries: 1054 (42S22): Unknown column 'intensity' in 'field list'
+2025-06-29 00:04:36,789 - WARNING - No mood entries for user_id 45
+2025-06-29 00:04:36,791 - INFO - Database connection successful
+2025-06-29 00:04:36,791 - ERROR - Error fetching mood tasks: 1146 (42S02): Table 'companionx.mood_tasks' doesn't exist
+2025-06-29 00:04:44,078 - INFO - Starting mood prediction for user_id 45
+2025-06-29 00:04:44,126 - INFO - Database connection successful
+2025-06-29 00:04:44,127 - ERROR - Error fetching mood entries: 1054 (42S22): Unknown column 'intensity' in 'field list'
+2025-06-29 00:04:44,127 - WARNING - No mood entries for user_id 45
+2025-06-29 00:04:44,130 - INFO - Database connection successful
+2025-06-29 00:04:44,130 - ERROR - Error fetching mood tasks: 1146 (42S02): Table 'companionx.mood_tasks' doesn't exist
+2025-06-29 00:32:43,867 - INFO - Starting mood prediction for user_id 46
+2025-06-29 00:32:43,922 - INFO - Database connection successful
+2025-06-29 00:32:43,923 - ERROR - Error fetching mood entries: 1054 (42S22): Unknown column 'intensity' in 'field list'
+2025-06-29 00:32:43,923 - WARNING - No mood entries for user_id 46
+2025-06-29 00:32:43,925 - INFO - Database connection successful
+2025-06-29 00:32:43,926 - ERROR - Error fetching mood tasks: 1146 (42S02): Table 'companionx.mood_tasks' doesn't exist
+2025-06-29 00:32:51,032 - INFO - Starting mood prediction for user_id 46
+2025-06-29 00:32:51,082 - INFO - Database connection successful
+2025-06-29 00:32:51,083 - ERROR - Error fetching mood entries: 1054 (42S22): Unknown column 'intensity' in 'field list'
+2025-06-29 00:32:51,083 - WARNING - No mood entries for user_id 46
+2025-06-29 00:32:51,085 - INFO - Database connection successful
+2025-06-29 00:32:51,086 - ERROR - Error fetching mood tasks: 1146 (42S02): Table 'companionx.mood_tasks' doesn't exist
+2025-06-29 01:34:05,702 - INFO - Starting mood prediction for user_id 46
+2025-06-29 01:34:05,755 - INFO - Database connection successful
+2025-06-29 01:34:05,756 - INFO - Fetched 0 mood entries for user_id 46
+2025-06-29 01:34:05,756 - WARNING - No mood entries for user_id 46
+2025-06-29 01:34:05,759 - INFO - Database connection successful
+2025-06-29 01:34:05,762 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 01:34:13,639 - INFO - Starting mood prediction for user_id 46
+2025-06-29 01:34:13,693 - INFO - Database connection successful
+2025-06-29 01:34:13,694 - INFO - Fetched 0 mood entries for user_id 46
+2025-06-29 01:34:13,694 - WARNING - No mood entries for user_id 46
+2025-06-29 01:34:13,696 - INFO - Database connection successful
+2025-06-29 01:34:13,710 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 01:34:14,569 - INFO - Starting mood prediction for user_id 46
+2025-06-29 01:34:14,618 - INFO - Database connection successful
+2025-06-29 01:34:14,619 - INFO - Fetched 1 mood entries for user_id 46
+2025-06-29 01:34:14,634 - INFO - Database connection successful
+2025-06-29 01:34:14,637 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 01:34:15,506 - INFO - Starting mood prediction for user_id 46
+2025-06-29 01:34:15,559 - INFO - Database connection successful
+2025-06-29 01:34:15,561 - INFO - Fetched 1 mood entries for user_id 46
+2025-06-29 01:34:15,564 - INFO - Database connection successful
+2025-06-29 01:34:15,568 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 01:44:31,338 - INFO - Starting mood prediction for user_id 46
+2025-06-29 01:44:31,391 - INFO - Database connection successful
+2025-06-29 01:44:31,392 - INFO - Fetched 1 mood entries for user_id 46
+2025-06-29 01:44:31,394 - INFO - Database connection successful
+2025-06-29 01:44:31,397 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 01:44:43,788 - INFO - Starting mood prediction for user_id 46
+2025-06-29 01:44:43,847 - INFO - Database connection successful
+2025-06-29 01:44:43,848 - INFO - Fetched 1 mood entries for user_id 46
+2025-06-29 01:44:43,850 - INFO - Database connection successful
+2025-06-29 01:44:43,861 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 01:44:44,820 - INFO - Starting mood prediction for user_id 46
+2025-06-29 01:44:44,866 - INFO - Database connection successful
+2025-06-29 01:44:44,867 - INFO - Fetched 2 mood entries for user_id 46
+2025-06-29 01:44:44,869 - INFO - Database connection successful
+2025-06-29 01:44:44,872 - INFO - Fetched 2 tasks for mood Angry
+2025-06-29 01:44:45,790 - INFO - Starting mood prediction for user_id 46
+2025-06-29 01:44:45,842 - INFO - Database connection successful
+2025-06-29 01:44:45,843 - INFO - Fetched 2 mood entries for user_id 46
+2025-06-29 01:44:45,846 - INFO - Database connection successful
+2025-06-29 01:44:45,859 - INFO - Fetched 2 tasks for mood Angry
+2025-06-29 02:07:00,712 - INFO - Starting mood prediction for user_id 46
+2025-06-29 02:07:00,779 - INFO - Database connection successful
+2025-06-29 02:07:00,781 - INFO - Fetched 2 mood entries for user_id 46
+2025-06-29 02:07:00,786 - INFO - Database connection successful
+2025-06-29 02:07:00,790 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 02:51:40,934 - INFO - Starting mood prediction for user_id 47
+2025-06-29 02:51:41,035 - INFO - Database connection successful
+2025-06-29 02:51:41,037 - INFO - Fetched 0 mood entries for user_id 47
+2025-06-29 02:51:41,038 - WARNING - No mood entries for user_id 47
+2025-06-29 02:51:41,040 - INFO - Database connection successful
+2025-06-29 02:51:41,049 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 03:07:03,156 - INFO - Starting mood prediction for user_id 47
+2025-06-29 03:07:03,220 - INFO - Database connection successful
+2025-06-29 03:07:03,221 - INFO - Fetched 0 mood entries for user_id 47
+2025-06-29 03:07:03,221 - WARNING - No mood entries for user_id 47
+2025-06-29 03:07:03,224 - INFO - Database connection successful
+2025-06-29 03:07:03,227 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 03:17:40,060 - ERROR - No user_id provided as command-line argument
+2025-06-29 03:22:56,120 - ERROR - No user_id provided as command-line argument
+2025-06-29 03:31:27,820 - INFO - Starting mood prediction for user_id 47
+2025-06-29 03:31:27,914 - INFO - Database connection successful
+2025-06-29 03:31:27,914 - INFO - Fetched 0 mood entries for user_id 47
+2025-06-29 03:31:27,914 - WARNING - No mood entries for user_id 47
+2025-06-29 03:31:27,929 - INFO - Database connection successful
+2025-06-29 03:31:27,929 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 03:31:39,257 - INFO - Starting mood prediction for user_id 47
+2025-06-29 03:31:39,302 - INFO - Database connection successful
+2025-06-29 03:31:39,303 - INFO - Fetched 0 mood entries for user_id 47
+2025-06-29 03:31:39,303 - WARNING - No mood entries for user_id 47
+2025-06-29 03:31:39,305 - INFO - Database connection successful
+2025-06-29 03:31:39,317 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 03:31:40,355 - INFO - Starting mood prediction for user_id 47
+2025-06-29 03:31:40,408 - INFO - Database connection successful
+2025-06-29 03:31:40,410 - INFO - Fetched 1 mood entries for user_id 47
+2025-06-29 03:31:40,416 - INFO - Database connection successful
+2025-06-29 03:31:40,420 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 03:31:41,340 - INFO - Starting mood prediction for user_id 47
+2025-06-29 03:31:41,396 - INFO - Database connection successful
+2025-06-29 03:31:41,397 - INFO - Fetched 1 mood entries for user_id 47
+2025-06-29 03:31:41,399 - INFO - Database connection successful
+2025-06-29 03:31:41,402 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 15:10:30,888 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:10:31,058 - INFO - Database connection successful
+2025-06-29 15:10:31,061 - INFO - Fetched 0 mood entries for user_id 1
+2025-06-29 15:10:31,061 - WARNING - No mood entries for user_id 1
+2025-06-29 15:10:31,063 - INFO - Database connection successful
+2025-06-29 15:10:31,072 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 15:26:50,702 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:26:50,764 - INFO - Database connection successful
+2025-06-29 15:26:50,764 - INFO - Fetched 0 mood entries for user_id 1
+2025-06-29 15:26:50,764 - WARNING - No mood entries for user_id 1
+2025-06-29 15:26:50,764 - INFO - Database connection successful
+2025-06-29 15:26:50,784 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 15:27:06,546 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:27:06,593 - INFO - Database connection successful
+2025-06-29 15:27:06,608 - INFO - Fetched 0 mood entries for user_id 1
+2025-06-29 15:27:06,608 - WARNING - No mood entries for user_id 1
+2025-06-29 15:27:06,608 - INFO - Database connection successful
+2025-06-29 15:27:06,622 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 15:27:07,733 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:27:07,796 - INFO - Database connection successful
+2025-06-29 15:27:07,796 - INFO - Fetched 1 mood entries for user_id 1
+2025-06-29 15:27:07,796 - INFO - Database connection successful
+2025-06-29 15:27:07,811 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 15:27:08,937 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:27:08,984 - INFO - Database connection successful
+2025-06-29 15:27:08,984 - INFO - Fetched 1 mood entries for user_id 1
+2025-06-29 15:27:09,000 - INFO - Database connection successful
+2025-06-29 15:27:09,011 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 15:28:42,802 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:28:42,849 - INFO - Database connection successful
+2025-06-29 15:28:42,849 - INFO - Fetched 1 mood entries for user_id 1
+2025-06-29 15:28:42,865 - INFO - Database connection successful
+2025-06-29 15:28:42,877 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 15:31:09,753 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:31:09,810 - INFO - Database connection successful
+2025-06-29 15:31:09,811 - INFO - Fetched 1 mood entries for user_id 1
+2025-06-29 15:31:09,813 - INFO - Database connection successful
+2025-06-29 15:31:09,826 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 15:31:29,339 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:31:29,399 - INFO - Database connection successful
+2025-06-29 15:31:29,399 - INFO - Fetched 1 mood entries for user_id 1
+2025-06-29 15:31:29,399 - INFO - Database connection successful
+2025-06-29 15:31:29,419 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 15:31:30,550 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:31:30,612 - INFO - Database connection successful
+2025-06-29 15:31:30,612 - INFO - Fetched 2 mood entries for user_id 1
+2025-06-29 15:31:30,612 - INFO - Database connection successful
+2025-06-29 15:31:30,612 - INFO - Fetched 2 tasks for mood Angry
+2025-06-29 15:31:31,732 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:31:31,794 - INFO - Database connection successful
+2025-06-29 15:31:31,794 - INFO - Fetched 2 mood entries for user_id 1
+2025-06-29 15:31:31,794 - INFO - Database connection successful
+2025-06-29 15:31:31,817 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 15:32:18,469 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:32:18,527 - INFO - Database connection successful
+2025-06-29 15:32:18,528 - INFO - Fetched 2 mood entries for user_id 1
+2025-06-29 15:32:18,530 - INFO - Database connection successful
+2025-06-29 15:32:18,542 - INFO - Fetched 2 tasks for mood Angry
+2025-06-29 15:38:26,884 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:38:26,947 - INFO - Database connection successful
+2025-06-29 15:38:26,947 - INFO - Fetched 2 mood entries for user_id 1
+2025-06-29 15:38:26,947 - INFO - Database connection successful
+2025-06-29 15:38:26,968 - INFO - Fetched 2 tasks for mood Angry
+2025-06-29 15:38:28,010 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:38:28,072 - INFO - Database connection successful
+2025-06-29 15:38:28,072 - INFO - Fetched 3 mood entries for user_id 1
+2025-06-29 15:38:28,072 - INFO - Database connection successful
+2025-06-29 15:38:28,072 - INFO - Fetched 2 tasks for mood Angry
+2025-06-29 15:38:29,197 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:38:29,244 - INFO - Database connection successful
+2025-06-29 15:38:29,244 - INFO - Fetched 3 mood entries for user_id 1
+2025-06-29 15:38:29,260 - INFO - Database connection successful
+2025-06-29 15:38:29,271 - INFO - Fetched 2 tasks for mood Angry
+2025-06-29 15:38:35,706 - INFO - Starting mood prediction for user_id 1
+2025-06-29 15:38:35,762 - INFO - Database connection successful
+2025-06-29 15:38:35,763 - INFO - Fetched 3 mood entries for user_id 1
+2025-06-29 15:38:35,766 - INFO - Database connection successful
+2025-06-29 15:38:35,777 - INFO - Fetched 2 tasks for mood Angry
+2025-06-29 15:43:44,759 - ERROR - No user_id provided as command-line argument
+2025-06-29 16:11:54,497 - INFO - Starting mood prediction for user_id 1
+2025-06-29 16:11:54,544 - INFO - Database connection successful
+2025-06-29 16:11:54,545 - INFO - Fetched 3 mood entries for user_id 1
+2025-06-29 16:11:54,554 - INFO - Fetched 2 tasks for mood Angry
+2025-06-29 22:41:08,327 - INFO - Starting mood prediction for user_id 1
+2025-06-29 22:41:08,382 - INFO - Database connection successful
+2025-06-29 22:41:08,383 - INFO - Fetched 3 mood entries for user_id 1
+2025-06-29 22:41:08,390 - INFO - Fetched 2 tasks for mood Angry
+2025-06-29 22:47:18,995 - INFO - Starting mood prediction for user_id 49
+2025-06-29 22:47:19,057 - INFO - Database connection successful
+2025-06-29 22:47:19,057 - INFO - Fetched 0 mood entries for user_id 49
+2025-06-29 22:47:19,058 - WARNING - No mood entries for user_id 49
+2025-06-29 22:47:19,060 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 22:47:56,508 - INFO - Starting mood prediction for user_id 49
+2025-06-29 22:47:56,573 - INFO - Database connection successful
+2025-06-29 22:47:56,574 - INFO - Fetched 0 mood entries for user_id 49
+2025-06-29 22:47:56,574 - WARNING - No mood entries for user_id 49
+2025-06-29 22:47:56,588 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 22:47:58,136 - INFO - Starting mood prediction for user_id 49
+2025-06-29 22:47:58,214 - INFO - Database connection successful
+2025-06-29 22:47:58,214 - INFO - Fetched 1 mood entries for user_id 49
+2025-06-29 22:47:58,217 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 22:47:59,795 - INFO - Starting mood prediction for user_id 49
+2025-06-29 22:47:59,868 - INFO - Database connection successful
+2025-06-29 22:47:59,869 - INFO - Fetched 1 mood entries for user_id 49
+2025-06-29 22:47:59,882 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 22:48:08,065 - INFO - Starting mood prediction for user_id 49
+2025-06-29 22:48:08,121 - INFO - Database connection successful
+2025-06-29 22:48:08,122 - INFO - Fetched 1 mood entries for user_id 49
+2025-06-29 22:48:08,125 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 23:47:18,488 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:47:18,553 - INFO - Database connection successful
+2025-06-29 23:47:18,554 - INFO - Fetched 1 mood entries for user_id 49
+2025-06-29 23:47:18,557 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 23:47:30,318 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:47:30,378 - INFO - Database connection successful
+2025-06-29 23:47:30,379 - INFO - Fetched 1 mood entries for user_id 49
+2025-06-29 23:47:30,392 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 23:47:31,679 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:47:31,734 - INFO - Database connection successful
+2025-06-29 23:47:31,735 - INFO - Fetched 2 mood entries for user_id 49
+2025-06-29 23:47:31,749 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 23:47:32,974 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:47:33,033 - INFO - Database connection successful
+2025-06-29 23:47:33,034 - INFO - Fetched 2 mood entries for user_id 49
+2025-06-29 23:47:33,046 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 23:47:39,590 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:47:39,663 - INFO - Database connection successful
+2025-06-29 23:47:39,664 - INFO - Fetched 2 mood entries for user_id 49
+2025-06-29 23:47:39,678 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 23:47:54,570 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:47:54,628 - INFO - Database connection successful
+2025-06-29 23:47:54,628 - INFO - Fetched 2 mood entries for user_id 49
+2025-06-29 23:47:54,642 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 23:47:55,985 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:47:56,048 - INFO - Database connection successful
+2025-06-29 23:47:56,048 - INFO - Fetched 3 mood entries for user_id 49
+2025-06-29 23:47:56,062 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 23:47:57,161 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:47:57,224 - INFO - Database connection successful
+2025-06-29 23:47:57,224 - INFO - Fetched 3 mood entries for user_id 49
+2025-06-29 23:47:57,227 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 23:48:03,097 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:48:03,151 - INFO - Database connection successful
+2025-06-29 23:48:03,152 - INFO - Fetched 3 mood entries for user_id 49
+2025-06-29 23:48:03,156 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 23:48:25,771 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:48:25,828 - INFO - Database connection successful
+2025-06-29 23:48:25,829 - INFO - Fetched 3 mood entries for user_id 49
+2025-06-29 23:48:25,832 - INFO - Fetched 2 tasks for mood Sad
+2025-06-29 23:48:26,840 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:48:26,893 - INFO - Database connection successful
+2025-06-29 23:48:26,894 - INFO - Fetched 4 mood entries for user_id 49
+2025-06-29 23:48:26,906 - INFO - Fetched 2 tasks for mood Angry
+2025-06-29 23:48:27,999 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:48:28,051 - INFO - Database connection successful
+2025-06-29 23:48:28,052 - INFO - Fetched 4 mood entries for user_id 49
+2025-06-29 23:48:28,056 - INFO - Fetched 2 tasks for mood Excited
+2025-06-29 23:48:33,550 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:48:33,615 - INFO - Database connection successful
+2025-06-29 23:48:33,616 - INFO - Fetched 4 mood entries for user_id 49
+2025-06-29 23:48:33,630 - INFO - Fetched 2 tasks for mood Excited
+2025-06-29 23:48:49,896 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:48:49,947 - INFO - Database connection successful
+2025-06-29 23:48:49,948 - INFO - Fetched 4 mood entries for user_id 49
+2025-06-29 23:48:49,962 - INFO - Fetched 2 tasks for mood Excited
+2025-06-29 23:48:50,979 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:48:51,031 - INFO - Database connection successful
+2025-06-29 23:48:51,031 - INFO - Fetched 5 mood entries for user_id 49
+2025-06-29 23:48:51,034 - INFO - Fetched 2 tasks for mood Angry
+2025-06-29 23:48:52,059 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:48:52,116 - INFO - Database connection successful
+2025-06-29 23:48:52,132 - INFO - Fetched 5 mood entries for user_id 49
+2025-06-29 23:48:52,144 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 23:48:58,578 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:48:58,625 - INFO - Database connection successful
+2025-06-29 23:48:58,625 - INFO - Fetched 5 mood entries for user_id 49
+2025-06-29 23:48:58,640 - INFO - Fetched 2 tasks for mood Angry
+2025-06-29 23:49:14,327 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:49:14,381 - INFO - Database connection successful
+2025-06-29 23:49:14,382 - INFO - Fetched 5 mood entries for user_id 49
+2025-06-29 23:49:14,394 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 23:49:15,400 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:49:15,455 - INFO - Database connection successful
+2025-06-29 23:49:15,455 - INFO - Fetched 6 mood entries for user_id 49
+2025-06-29 23:49:15,473 - INFO - Fetched 2 tasks for mood Happy
+2025-06-29 23:49:16,822 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:49:16,881 - INFO - Database connection successful
+2025-06-29 23:49:16,882 - INFO - Fetched 6 mood entries for user_id 49
+2025-06-29 23:49:16,895 - INFO - Fetched 2 tasks for mood Neutral
+2025-06-29 23:49:21,930 - INFO - Starting mood prediction for user_id 49
+2025-06-29 23:49:21,981 - INFO - Database connection successful
+2025-06-29 23:49:21,981 - INFO - Fetched 6 mood entries for user_id 49
+2025-06-29 23:49:21,995 - INFO - Fetched 2 tasks for mood Happy
+2025-06-30 11:48:19,577 - INFO - Starting mood prediction for user_id 1
+2025-06-30 11:48:19,674 - INFO - Database connection successful
+2025-06-30 11:48:19,675 - INFO - Fetched 3 mood entries for user_id 1
+2025-06-30 11:48:19,681 - INFO - Fetched 2 tasks for mood Angry
+2025-06-30 11:48:45,683 - INFO - Starting mood prediction for user_id 1
+2025-06-30 11:48:45,741 - INFO - Database connection successful
+2025-06-30 11:48:45,741 - INFO - Fetched 3 mood entries for user_id 1
+2025-06-30 11:48:45,755 - INFO - Fetched 2 tasks for mood Angry
+2025-06-30 11:48:46,955 - INFO - Starting mood prediction for user_id 1
+2025-06-30 11:48:47,018 - INFO - Database connection successful
+2025-06-30 11:48:47,018 - INFO - Fetched 4 mood entries for user_id 1
+2025-06-30 11:48:47,042 - INFO - Fetched 2 tasks for mood Angry
+2025-06-30 11:48:48,206 - INFO - Starting mood prediction for user_id 1
+2025-06-30 11:48:48,253 - INFO - Database connection successful
+2025-06-30 11:48:48,253 - INFO - Fetched 4 mood entries for user_id 1
+2025-06-30 11:48:48,268 - INFO - Fetched 2 tasks for mood Angry
+2025-06-30 11:48:58,122 - INFO - Starting mood prediction for user_id 1
+2025-06-30 11:48:58,186 - INFO - Database connection successful
+2025-06-30 11:48:58,188 - INFO - Fetched 4 mood entries for user_id 1
+2025-06-30 11:48:58,202 - INFO - Fetched 2 tasks for mood Angry
+2025-06-30 13:16:03,517 - INFO - Starting mood prediction for user_id 1
+2025-06-30 13:16:03,576 - INFO - Database connection successful
+2025-06-30 13:16:03,577 - INFO - Fetched 4 mood entries for user_id 1
+2025-06-30 13:16:03,589 - INFO - Fetched 2 tasks for mood Angry
+2025-06-30 13:16:46,855 - INFO - Starting mood prediction for user_id 1
+2025-06-30 13:16:46,964 - INFO - Database connection successful
+2025-06-30 13:16:46,964 - INFO - Fetched 4 mood entries for user_id 1
+2025-06-30 13:16:46,964 - INFO - Fetched 2 tasks for mood Angry
+2025-06-30 13:16:49,165 - INFO - Starting mood prediction for user_id 1
+2025-06-30 13:16:49,274 - INFO - Database connection successful
+2025-06-30 13:16:49,274 - INFO - Fetched 5 mood entries for user_id 1
+2025-06-30 13:16:49,290 - INFO - Fetched 2 tasks for mood Angry
+2025-06-30 13:16:50,932 - INFO - Starting mood prediction for user_id 1
+2025-06-30 13:16:51,010 - INFO - Database connection successful
+2025-06-30 13:16:51,010 - INFO - Fetched 5 mood entries for user_id 1
+2025-06-30 13:16:51,010 - INFO - Fetched 2 tasks for mood Angry
+2025-06-30 13:17:05,934 - INFO - Starting mood prediction for user_id 1
+2025-06-30 13:17:05,992 - INFO - Database connection successful
+2025-06-30 13:17:05,992 - INFO - Fetched 5 mood entries for user_id 1
+2025-06-30 13:17:06,006 - INFO - Fetched 2 tasks for mood Angry

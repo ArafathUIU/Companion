@@ -1,0 +1,289 @@
+2025-06-27 04:20:56,423 - INFO - Starting recommendation process for user_id 1
+2025-06-27 04:20:56,535 - INFO - Database connection successful
+2025-06-27 04:20:56,540 - INFO - Fetched 0 answers for user_id 1
+2025-06-27 04:20:56,540 - WARNING - No answers found for user_id 1
+2025-06-27 04:23:28,999 - INFO - Starting recommendation process for user_id 44
+2025-06-27 04:23:29,013 - INFO - Database connection successful
+2025-06-27 04:23:29,015 - INFO - Fetched 11 answers for user_id 44
+2025-06-27 04:23:29,015 - INFO - Database connection successful
+2025-06-27 04:23:29,015 - INFO - Fetched 16 active consultants
+2025-06-27 04:23:29,015 - INFO - User vector: [3. 8. 3. 2. 9. 2. 3. 3. 9.], Reasons: ['Reduce stress', 'Manage anxiety', 'Deal with depression', 'Find a counselor']
+2025-06-27 04:23:29,015 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Consultant vector for Stress: [1, 1.0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:23:29,015 - INFO - Top 5 recommendations for user_id 44: [{'consultant_id': 3, 'score': np.float64(0.48686449556014766)}, {'consultant_id': 6, 'score': np.float64(0.48686449556014766)}, {'consultant_id': 10, 'score': np.float64(0.48686449556014766)}, {'consultant_id': 14, 'score': np.float64(0.48686449556014766)}, {'consultant_id': 16, 'score': np.float64(0.47336463120312866)}]
+2025-06-27 04:23:29,031 - INFO - Database connection successful
+2025-06-27 04:23:29,031 - INFO - Saved recommendations for user_id 44
+2025-06-27 04:33:38,311 - ERROR - No user_id provided as command-line argument
+2025-06-27 04:34:02,990 - INFO - Starting recommendation process for user_id 45
+2025-06-27 04:34:03,069 - INFO - Database connection successful
+2025-06-27 04:34:03,072 - INFO - Fetched 11 answers for user_id 45
+2025-06-27 04:34:03,074 - INFO - Database connection successful
+2025-06-27 04:34:03,074 - INFO - Fetched 16 active consultants
+2025-06-27 04:34:03,074 - INFO - User vector: [3. 8. 3. 4. 7. 8. 3. 9. 9.], Reasons: ['Reduce stress', 'Manage anxiety', 'Find a counselor']
+2025-06-27 04:34:03,074 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,074 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,074 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,074 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,074 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,074 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,074 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,074 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,074 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,074 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,074 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,091 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,094 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,094 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,094 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,094 - INFO - Consultant vector for Stress: [1, 1.0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 04:34:03,094 - INFO - Top 5 recommendations for user_id 45: [{'consultant_id': 3, 'score': np.float64(0.40931560807732065)}, {'consultant_id': 6, 'score': np.float64(0.40931560807732065)}, {'consultant_id': 10, 'score': np.float64(0.40931560807732065)}, {'consultant_id': 14, 'score': np.float64(0.40931560807732065)}, {'consultant_id': 16, 'score': np.float64(0.3979660329108318)}]
+2025-06-27 04:34:03,094 - INFO - Database connection successful
+2025-06-27 04:34:03,109 - INFO - Saved recommendations for user_id 45
+2025-06-27 14:05:51,468 - INFO - Starting recommendation process for user_id 46
+2025-06-27 14:05:51,489 - INFO - Database connection successful
+2025-06-27 14:05:51,489 - INFO - Fetched 11 answers for user_id 46
+2025-06-27 14:05:51,489 - INFO - Database connection successful
+2025-06-27 14:05:51,508 - INFO - Fetched 16 active consultants
+2025-06-27 14:05:51,508 - INFO - User vector: [8. 2. 8. 2. 9. 3. 3. 2. 8.], Reasons: ['Reduce stress', 'Manage anxiety', 'Boost confidence', 'Find a counselor']
+2025-06-27 14:05:51,508 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,508 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,508 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,508 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,508 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,508 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,508 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,508 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,508 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,508 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,508 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,524 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,524 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,526 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,528 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,530 - INFO - Consultant vector for Stress: [1, 1.0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-27 14:05:51,530 - INFO - Top 5 recommendations for user_id 46: [{'consultant_id': 2, 'score': np.float64(0.4595879916971408)}, {'consultant_id': 4, 'score': np.float64(0.4595879916971408)}, {'consultant_id': 5, 'score': np.float64(0.4595879916971408)}, {'consultant_id': 8, 'score': np.float64(0.4595879916971408)}, {'consultant_id': 9, 'score': np.float64(0.4595879916971408)}]
+2025-06-27 14:05:51,530 - INFO - Database connection successful
+2025-06-27 14:05:51,545 - INFO - Saved recommendations for user_id 46
+2025-06-28 00:28:11,106 - INFO - Starting recommendation process for user_id 47
+2025-06-28 00:28:11,171 - INFO - Database connection successful
+2025-06-28 00:28:11,174 - INFO - Fetched 11 answers for user_id 47
+2025-06-28 00:28:11,176 - INFO - Database connection successful
+2025-06-28 00:28:11,187 - INFO - Fetched 16 active consultants
+2025-06-28 00:28:11,187 - INFO - User vector: [7. 2. 7. 8. 3. 8. 2. 9. 8.], Reasons: ['Manage anxiety', 'Deal with depression']
+2025-06-28 00:28:11,188 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,189 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,190 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,191 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,192 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,194 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,195 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,195 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,196 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,198 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,199 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,200 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,200 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,201 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,202 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,203 - INFO - Consultant vector for Stress: [1, 1.0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 00:28:11,204 - INFO - Top 5 recommendations for user_id 47: [{'consultant_id': 1, 'score': np.float64(0.40613846605344767)}, {'consultant_id': 7, 'score': np.float64(0.40613846605344767)}, {'consultant_id': 12, 'score': np.float64(0.40613846605344767)}, {'consultant_id': 2, 'score': np.float64(0.3553711577967667)}, {'consultant_id': 4, 'score': np.float64(0.3553711577967667)}]
+2025-06-28 00:28:11,206 - INFO - Database connection successful
+2025-06-28 00:28:11,217 - INFO - Saved recommendations for user_id 47
+2025-06-28 10:40:32,847 - ERROR - No user_id provided as command-line argument
+2025-06-28 10:46:36,969 - WARNING - No user_id passed via CLI. Using default user_id = 1 for testing.
+2025-06-28 10:46:37,034 - INFO - Database connection successful
+2025-06-28 10:47:21,305 - ERROR - Error fetching user answers: 2013 (HY000): Lost connection to MySQL server during query
+2025-06-28 10:47:21,305 - ERROR - Error computing recommendations: 2013 (HY000): Lost connection to MySQL server during query
+2025-06-28 10:48:27,650 - INFO - Starting recommendation process via CLI for user_id 48
+2025-06-28 10:48:27,665 - INFO - Database connection successful
+2025-06-28 10:48:27,665 - INFO - Fetched 18 answers for user_id 48
+2025-06-28 10:48:27,665 - INFO - Database connection successful
+2025-06-28 10:48:27,681 - INFO - Fetched 16 active consultants
+2025-06-28 10:48:27,681 - INFO - User vector: [7.0, 8.0, 9.0, 8.0, 8.0, 8.0, 9.0, 9.0, 9.0], Reasons: ['Deal with depression']
+2025-06-28 10:48:27,681 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,681 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,696 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,696 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,701 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,702 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,703 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,707 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,708 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,709 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,710 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,711 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,712 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,713 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,714 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,715 - INFO - Consultant vector for Stress: [1, 1.0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 10:48:27,716 - INFO - Top 5 recommendations for user_id 48: [{'consultant_id': 16, 'score': np.float64(0.42291290582595065)}, {'consultant_id': 2, 'score': np.float64(0.358853500273005)}, {'consultant_id': 5, 'score': np.float64(0.358853500273005)}, {'consultant_id': 9, 'score': np.float64(0.358853500273005)}, {'consultant_id': 13, 'score': np.float64(0.358853500273005)}]
+2025-06-28 10:48:27,718 - INFO - Database connection successful
+2025-06-28 10:48:27,721 - INFO - Saved recommendations for user_id 48
+2025-06-28 22:31:48,199 - INFO - Starting recommendation process via CLI for user_id 45
+2025-06-28 22:31:48,263 - INFO - Database connection successful
+2025-06-28 22:31:48,263 - INFO - Fetched 11 answers for user_id 45
+2025-06-28 22:31:48,263 - INFO - Database connection successful
+2025-06-28 22:31:48,263 - INFO - Fetched 16 active consultants
+2025-06-28 22:31:48,263 - INFO - User vector: [7.0, 9.0, 5.0, 9.0, 1.0, 9.0, 2.0, 9.0, 3.0], Reasons: ['Manage anxiety', 'Boost confidence', 'Find a counselor']
+2025-06-28 22:31:48,263 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,263 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,263 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,263 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,263 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,263 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,263 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,263 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,263 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,279 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,279 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,279 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,279 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,279 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,279 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,279 - INFO - Consultant vector for Stress: [1, 1.0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-28 22:31:48,279 - INFO - Top 5 recommendations for user_id 45: [{'consultant_id': 16, 'score': np.float64(0.5573864114332941)}, {'consultant_id': 1, 'score': np.float64(0.44339817517393193)}, {'consultant_id': 3, 'score': np.float64(0.44339817517393193)}, {'consultant_id': 6, 'score': np.float64(0.44339817517393193)}, {'consultant_id': 7, 'score': np.float64(0.44339817517393193)}]
+2025-06-28 22:31:48,279 - INFO - Database connection successful
+2025-06-28 22:31:48,279 - ERROR - Error computing recommendations: 1146 (42S02): Table 'companionx.ai_consultant_recommendations' doesn't exist
+2025-06-29 00:12:48,769 - WARNING - No user_id passed via CLI. Using default user_id = 1 for testing.
+2025-06-29 00:12:48,784 - INFO - Database connection successful
+2025-06-29 00:12:48,800 - INFO - Fetched 0 answers for user_id 1
+2025-06-29 00:12:48,800 - WARNING - No answers found for user_id 1. Skipping recommendations.
+2025-06-29 00:31:52,479 - INFO - Starting recommendation process via CLI for user_id 46
+2025-06-29 00:31:52,490 - INFO - Database connection successful
+2025-06-29 00:31:52,490 - INFO - Fetched 11 answers for user_id 46
+2025-06-29 00:31:52,490 - INFO - Database connection successful
+2025-06-29 00:31:52,490 - INFO - Fetched 16 active consultants
+2025-06-29 00:31:52,506 - INFO - User vector: [3.0, 8.0, 3.0, 8.0, 3.0, 9.0, 3.0, 8.0, 3.0], Reasons: ['Reduce stress', 'Manage anxiety', 'Find a counselor']
+2025-06-29 00:31:52,506 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,506 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,522 - INFO - Consultant vector for Stress: [1, 1.0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 00:31:52,522 - INFO - Top 5 recommendations for user_id 46: [{'consultant_id': 1, 'score': np.float64(0.44861772327363547)}, {'consultant_id': 3, 'score': np.float64(0.44861772327363547)}, {'consultant_id': 6, 'score': np.float64(0.44861772327363547)}, {'consultant_id': 7, 'score': np.float64(0.44861772327363547)}, {'consultant_id': 10, 'score': np.float64(0.44861772327363547)}]
+2025-06-29 00:31:52,522 - INFO - Database connection successful
+2025-06-29 00:31:52,522 - INFO - Saved recommendations for user_id 46
+2025-06-29 01:00:48,979 - INFO - Starting recommendation process via CLI for user_id 47
+2025-06-29 01:00:48,994 - INFO - Database connection successful
+2025-06-29 01:00:48,994 - INFO - Fetched 11 answers for user_id 47
+2025-06-29 01:00:48,994 - INFO - Database connection successful
+2025-06-29 01:00:48,994 - INFO - Fetched 16 active consultants
+2025-06-29 01:00:48,994 - INFO - User vector: [2.0, 3.0, 1.0, 7.0, 8.0, 3.0, 8.0, 4.0, 9.0], Reasons: ['Reduce stress', 'Manage anxiety', 'Boost confidence', 'Overcome burnout', 'Find a counselor']
+2025-06-29 01:00:48,994 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-29 01:00:48,994 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 01:00:48,994 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Consultant vector for Stress: [1, 1.0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 01:00:49,010 - INFO - Top 5 recommendations for user_id 47: [{'consultant_id': 1, 'score': np.float64(0.4061811972299616)}, {'consultant_id': 7, 'score': np.float64(0.4061811972299616)}, {'consultant_id': 12, 'score': np.float64(0.4061811972299616)}, {'consultant_id': 16, 'score': np.float64(0.20515248496555455)}, {'consultant_id': 3, 'score': np.float64(0.17407765595569785)}]
+2025-06-29 01:00:49,010 - INFO - Database connection successful
+2025-06-29 01:00:49,026 - INFO - Saved recommendations for user_id 47
+2025-06-29 12:43:29,562 - INFO - Starting recommendation process via CLI for user_id 48
+2025-06-29 12:43:29,578 - INFO - Database connection successful
+2025-06-29 12:43:29,596 - INFO - Fetched 11 answers for user_id 48
+2025-06-29 12:43:29,596 - INFO - Database connection successful
+2025-06-29 12:43:29,596 - INFO - Fetched 16 active consultants
+2025-06-29 12:43:29,596 - INFO - User vector: [6.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0], Reasons: ['Manage anxiety', 'Deal with depression', 'Improve sleep', 'Boost confidence', 'Overcome burnout']
+2025-06-29 12:43:29,596 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Consultant vector for Stress: [1, 1.0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 12:43:29,611 - INFO - Top 5 recommendations for user_id 48: [{'consultant_id': 16, 'score': np.float64(0.5063160398440778)}, {'consultant_id': 4, 'score': np.float64(0.39056673294247163)}, {'consultant_id': 8, 'score': np.float64(0.39056673294247163)}, {'consultant_id': 11, 'score': np.float64(0.39056673294247163)}, {'consultant_id': 15, 'score': np.float64(0.39056673294247163)}]
+2025-06-29 12:43:29,611 - INFO - Database connection successful
+2025-06-29 12:43:29,627 - INFO - Saved recommendations for user_id 48
+2025-06-29 22:44:29,790 - INFO - Starting recommendation process via CLI for user_id 49
+2025-06-29 22:44:29,806 - INFO - Database connection successful
+2025-06-29 22:44:29,808 - INFO - Fetched 11 answers for user_id 49
+2025-06-29 22:44:29,810 - INFO - Database connection successful
+2025-06-29 22:44:29,817 - INFO - Fetched 16 active consultants
+2025-06-29 22:44:29,818 - INFO - User vector: [8.0, 5.0, 5.0, 8.0, 2.0, 9.0, 2.0, 8.0, 3.0], Reasons: ['Reduce stress', 'Manage anxiety', 'Enhance emotional wellbeing', 'Find a counselor']
+2025-06-29 22:44:29,818 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,820 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,824 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,826 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,827 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,828 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,829 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,830 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,831 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,833 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,834 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,835 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,837 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,838 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,840 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,841 - INFO - Consultant vector for Stress: [1, 1.0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-29 22:44:29,843 - INFO - Top 5 recommendations for user_id 49: [{'consultant_id': 16, 'score': np.float64(0.49852724275079074)}, {'consultant_id': 1, 'score': np.float64(0.4338609156373123)}, {'consultant_id': 4, 'score': np.float64(0.4338609156373123)}, {'consultant_id': 7, 'score': np.float64(0.4338609156373123)}, {'consultant_id': 8, 'score': np.float64(0.4338609156373123)}]
+2025-06-29 22:44:29,846 - INFO - Database connection successful
+2025-06-29 22:44:29,862 - INFO - Saved recommendations for user_id 49
+2025-06-30 13:14:10,337 - INFO - Starting recommendation process via CLI for user_id 51
+2025-06-30 13:14:10,397 - INFO - Database connection successful
+2025-06-30 13:14:10,397 - INFO - Fetched 11 answers for user_id 51
+2025-06-30 13:14:10,413 - INFO - Database connection successful
+2025-06-30 13:14:10,413 - INFO - Fetched 16 active consultants
+2025-06-30 13:14:10,413 - INFO - User vector: [3.0, 8.0, 8.0, 8.0, 8.0, 8.0, 7.0, 3.0, 3.0], Reasons: ['Reduce stress', 'Manage anxiety', 'Find a counselor']
+2025-06-30 13:14:10,413 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,413 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,413 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,413 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,413 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,413 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,413 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,413 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,413 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,428 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,429 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,429 - INFO - Consultant vector for PTSD: [0, 0, 0, 1, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,429 - INFO - Consultant vector for Depression: [0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,429 - INFO - Consultant vector for Anxiety: [0, 1, 0, 0, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,429 - INFO - Consultant vector for Stress: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,429 - INFO - Consultant vector for Stress: [1, 1.0, 0, 0, 0, 0, 0, 0, 0]
+2025-06-30 13:14:10,429 - INFO - Top 5 recommendations for user_id 51: [{'consultant_id': 1, 'score': np.float64(0.40201512610368484)}, {'consultant_id': 2, 'score': np.float64(0.40201512610368484)}, {'consultant_id': 3, 'score': np.float64(0.40201512610368484)}, {'consultant_id': 5, 'score': np.float64(0.40201512610368484)}, {'consultant_id': 6, 'score': np.float64(0.40201512610368484)}]
+2025-06-30 13:14:10,429 - INFO - Database connection successful
+2025-06-30 13:14:10,444 - INFO - Saved recommendations for user_id 51
